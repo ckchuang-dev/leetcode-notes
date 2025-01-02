@@ -1,4 +1,10 @@
-# leetcode-notes
+# Some LeetCode Notes
 
 - [Grind 75](https://www.techinterviewhandbook.org/grind75/)
 - [Neetcode roadmap](https://neetcode.io/roadmap)
+
+## Question List
+
+| #    | Solution                                  | Date                                      |
+| ---- | ----------------------------------------- | ----------------------------------------- |
+| 0733 | [Flood Fill](./src/733. Flood Fill)       | 2025-01-02       |
