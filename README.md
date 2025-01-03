@@ -8,7 +8,7 @@
 | #    | Solution                                                         | Topic       | Date                                      |
 | ---- | ---------------------------------------------------------------- | ----------- | ----------------------------------------- |
 | 0733 | [Flood Fill](./src/733.%20Flood%20Fill)                          | Graph       | 2025-01-02                                |
-| 0226 | [Invert Binary Tree](./src/226.%20Invert%20Binary%20Tree)        | Binary Tree | 2025-01-xx                                |
+| 0226 | [Invert Binary Tree](./src/226.%20Invert%20Binary%20Tree)        | Binary Tree | 2025-01-03                                |
 | 0226 | [Invert Binary Tree](./src/226.%20Invert%20Binary%20Tree)        | Binary Tree | 2025-01-xx                                |
 | 0226 | [Invert Binary Tree](./src/226.%20Invert%20Binary%20Tree)        | Binary Tree | 2025-01-xx                                |
 | 0226 | [Invert Binary Tree](./src/226.%20Invert%20Binary%20Tree)        | Binary Tree | 2025-01-xx                                |
