@@ -18,7 +18,7 @@ const getTreeHeight = (root: TreeNode | null): number => {
   }
 
   // or recursively calculate max left and right tree height
-  return 1 + Math.max(getTreeHeight(root.left), getTreeHeight(root.left));
+  return 1 + Math.max(getTreeHeight(root.left), getTreeHeight(root.right));
 };
 
 const isBalanced = (root: TreeNode | null): boolean => {
