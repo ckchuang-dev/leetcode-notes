@@ -1,4 +1,5 @@
-import isBalanced, { TreeNode } from './isBalanced';
+import isBalanced from './isBalanced';
+import { TreeNode } from '@/types/tree';
 
 describe('Balanced Binary Tree', () => {
   it('should return true for a balanced binary tree - example 1', () => {

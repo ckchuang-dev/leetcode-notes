@@ -1,4 +1,5 @@
-import invertTree, { TreeNode } from './invertTree';
+import { TreeNode } from '@/types/tree';
+import invertTree from './invertTree';
 
 // for checking tree node values
 const treeToArray = (root: TreeNode | null): (number | null)[] => {

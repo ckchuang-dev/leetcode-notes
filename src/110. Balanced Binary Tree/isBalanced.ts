@@ -1,14 +1,4 @@
-class TreeNode {
-  val: number;
-  left: TreeNode | null;
-  right: TreeNode | null;
-
-  constructor(val?: number, left?: TreeNode | null, right?: TreeNode | null) {
-    this.val = val === undefined ? 0 : val;
-    this.left = left === undefined ? null : left;
-    this.right = right === undefined ? null : right;
-  }
-}
+import { TreeNode } from '@/types/tree';
 
 // implement a getTreeHeight function
 const getTreeHeight = (root: TreeNode | null): number => {
@@ -38,4 +28,4 @@ const isBalanced = (root: TreeNode | null): boolean => {
   );
 };
 
-export { isBalanced as default, TreeNode };
+export default isBalanced;
