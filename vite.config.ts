@@ -10,8 +10,8 @@ export default defineConfig({
   },
   test: {
     globals: true,
+    pool: 'threads',
     include: ['src/**/*.test.{ts,tsx}'],
-    silent: true, // Suppresses all output except for errors
     alias: {
       '@/': new URL('./src/', import.meta.url).pathname,
     },
