@@ -18,7 +18,7 @@
 
 **說明**：輸入/輸出的格式可以與 [LeetCode 的二元樹序列化](https://support.leetcode.com/hc/en-us/articles/32442719377939-How-to-create-test-cases-on-LeetCode#h_01J5EGREAW3NAEJ14XC07GRW1A)格式相同。你不需要完全遵循該格式，可以發揮創意並提出不同的解法。
 
-![image.png](./297.%20序列化與反序列化二元樹%20(Serialize%20and%20Deserialize%20Binary%20Tree)-assets/image.png)
+![image.png](./image.png)
 
 ---
 
