@@ -335,6 +335,6 @@ describe('Serialize and Deserialize Binary Tree', () => {
 
 先試著把反序列化的部份註解掉就能正常通過了，所以效能瓶頸是發生在 `deserialized` 的地方，試著做一些特製的邊界條件去調整後問題還是存在，後來在想有可能是原本 Vitest 設定可能有一些效能相關的問題。
 
-找到一個 [poor](https://vitest.dev/guide/improving-performance.html#pool) 的設定，試著調整成 `pool: ‘threads'` 就通過了，研究了下文件看起來預設是使用 `pool: 'forks'` 的方式，也就是將每個測試跑在不同的 `node:child_process`，而若有效能問題，文件建議可以改成用 `node:worker_threads` 的方式改善。
+找到一個 [pool](https://vitest.dev/guide/improving-performance.html#pool) 的設定，試著調整成 `pool: ‘threads'` 就通過了，研究了下文件看起來預設是使用 `pool: 'forks'` 的方式，也就是將每個測試跑在不同的 `node:child_process`，而若有效能問題，文件建議可以改成用 `node:worker_threads` 的方式改善。
 
 又好奇去看這是不是只有 Vitest 特製的設定，找到 jest 中也有一個 [workerThreads](https://jestjs.io/docs/29.5/configuration#workerthreads) 的設定，關於這兩者的差別還沒太深入研究，先筆記在這。
