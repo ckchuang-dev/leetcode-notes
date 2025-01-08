@@ -13,3 +13,4 @@
 | 0102 | [[M] Binary Tree Level Order Traversal](./src/102.%20Binary%20Tree%20Level%20Order%20Traversal) | Binary Tree | 2025-01-05     |
 | 0297 | [[H] Serialize and Deserialize Binary Tree](./src/297.%20Serialize%20and%20Deserialize%20Binary%20Tree) | Binary Tree | 2025-01-06 |
 | 0104 | [[E] Maximum Depth of Binary Tree](./src/104.%20Maximum%20Depth%20of%20Binary%20Tree) | Binary Tree | 2025-01-07 |
+| 0020 | [[E] Valid Parentheses](./src/20.%20Valid%20Parentheses)             | Stack       | 2025-01-08                                |
