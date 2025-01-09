@@ -78,13 +78,15 @@
 
 export default function isValid(s: string): boolean {
   // declare a stack array to store parentheses
+
   // run a for loop for each char
-  // check current char map to any value with parentheses map or note
-  // yes, pop stack value to check if equal
-  // yes, continue
-  // no, return false
-  // no, push current char into stack
-  // return true
+    // check current char map to any value with parentheses map or note
+      // yes, pop stack value to check if equal
+        // yes, continue
+        // no, return false
+      // no, push current char into stack
+
+  // check whether stack is empty, return true when empty
 }
 ```
 
@@ -118,19 +120,23 @@ export default function isValidParentheses(s: string): boolean {
     }
   }
 
-  return true;
+  // check whether stack is empty, return true when empty
+  return stack.length === 0;
 }
 ```
 
 ## 撰寫測試驗證
 
 ```ts
+import isValidParentheses from './isValidParentheses';
+
 describe('Valid Parentheses', () => {
   test.each([
     ['()', true],
     ['()[]{}', true],
     ['(]', false],
-    ['([])', true]
+    ['([])', true],
+    ['(', false]
   ])('Given "%s" as input, should return %s', (input, expected) => {
     expect(isValidParentheses(input)).toBe(expected);
   });
