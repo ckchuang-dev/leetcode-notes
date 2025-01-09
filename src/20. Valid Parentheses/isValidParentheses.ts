@@ -25,5 +25,6 @@ export default function isValidParentheses(s: string): boolean {
     }
   }
 
-  return true;
+  // check whether stack is empty, return true when empty
+  return stack.length === 0;
 }

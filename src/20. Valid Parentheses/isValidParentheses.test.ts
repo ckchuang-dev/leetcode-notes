@@ -5,7 +5,8 @@ describe('Valid Parentheses', () => {
     ['()', true],
     ['()[]{}', true],
     ['(]', false],
-    ['([])', true]
+    ['([])', true],
+    ['(', false]
   ])('Given "%s" as input, should return %s', (input, expected) => {
     expect(isValidParentheses(input)).toBe(expected);
   });
