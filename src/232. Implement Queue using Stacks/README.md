@@ -71,6 +71,8 @@ myQueue.empty(); // 返回 false
 
 ## 提出思路
 
+![](./232-example.png)
+
 因為是需要用兩個 stack 來模擬 queue 的結構，所以在執行每個要參考 queue 頭部的操作 dequeue 與 peek 時會需要多一些判斷來調整資料順序：
 
 - 宣告 head、tail 兩個 stack array：
