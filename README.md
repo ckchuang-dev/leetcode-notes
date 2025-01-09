@@ -14,3 +14,4 @@
 | 0297 | [[H] Serialize and Deserialize Binary Tree](./src/297.%20Serialize%20and%20Deserialize%20Binary%20Tree) | Binary Tree | 2025-01-06 |
 | 0104 | [[E] Maximum Depth of Binary Tree](./src/104.%20Maximum%20Depth%20of%20Binary%20Tree) | Binary Tree | 2025-01-07 |
 | 0020 | [[E] Valid Parentheses](./src/20.%20Valid%20Parentheses)             | Stack       | 2025-01-08                                |
+| 0232 | [[E] Implement Queue using Stacks](./src/232.%20Implement%20Queue%20using%20Stacks)  | Stack       | 2025-01-09                |
