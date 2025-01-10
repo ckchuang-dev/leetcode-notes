@@ -1,9 +1,13 @@
-# Some LeetCode Notes
+# 📚 LeetCode Daily Practice with TypeScript and Vitest
 
-- [Grind 75](https://www.techinterviewhandbook.org/grind75/)
-- [Neetcode roadmap](https://neetcode.io/roadmap)
+A collaborative group with friends to build a daily LeetCode problem-solving habit. This repository includes solutions implemented in **TypeScript** with testing powered by **Vitest**, along with curated interview prep notes and frameworks.
 
-## Question List
+## 🔥 Features
+- 📖 Daily LeetCode solutions (Grind 75, Neetcode roadmap)
+- 🛠️ Solutions tested with **Vitest**
+- 📝 Interview prep notes and frameworks
+
+## 🗂️ Progress Tracker
 
 | #    | Solution                                                             | Topic       | Date                                      |
 | ---- | -------------------------------------------------------------------- | ----------- | ----------------------------------------- |
@@ -16,3 +20,8 @@
 | 0020 | [[E] Valid Parentheses](./src/20.%20Valid%20Parentheses)             | Stack       | 2025-01-08                                |
 | 0232 | [[E] Implement Queue using Stacks](./src/232.%20Implement%20Queue%20using%20Stacks)  | Stack       | 2025-01-09                |
 | 0155 | [[M] Min Stack](./src/155.%20Min%20Stack)                            | Stack       | 2025-01-10                                |
+
+## References
+
+- [Grind 75](https://www.techinterviewhandbook.org/grind75/)
+- [Neetcode roadmap](https://neetcode.io/roadmap)
