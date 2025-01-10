@@ -1,5 +1,3 @@
-# 226. Invert Binary Tree
-
 # [M] 155. 最小堆疊 (Min Stack)
 
 ## 題目
