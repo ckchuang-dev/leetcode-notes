@@ -20,6 +20,7 @@ A collaborative group with friends to build a daily LeetCode problem-solving hab
 | 0020 | [[E] Valid Parentheses](./src/20.%20Valid%20Parentheses)             | Stack       | 2025-01-08                                |
 | 0232 | [[E] Implement Queue using Stacks](./src/232.%20Implement%20Queue%20using%20Stacks)  | Stack       | 2025-01-09                |
 | 0155 | [[M] Min Stack](./src/155.%20Min%20Stack)                            | Stack       | 2025-01-10                                |
+| 0242 | [[E] Valid Anagram](./src/242.%20Valid%20Anagram)                    | String      | 2025-01-11                                |
 
 ## References
 
