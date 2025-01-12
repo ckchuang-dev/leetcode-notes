@@ -21,6 +21,7 @@ A collaborative group with friends to build a daily LeetCode problem-solving hab
 | 0232 | [[E] Implement Queue using Stacks](./src/232.%20Implement%20Queue%20using%20Stacks)  | Stack       | 2025-01-09                |
 | 0155 | [[M] Min Stack](./src/155.%20Min%20Stack)                            | Stack       | 2025-01-10                                |
 | 0242 | [[E] Valid Anagram](./src/242.%20Valid%20Anagram)                    | String      | 2025-01-11                                |
+| 0121 | [[E] Best Time to Buy and Sell Stock](./src/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock) | Array | 2025-01-12           |
 
 ## References
 
