@@ -57,7 +57,7 @@
 
 如果以一個最簡單的例子 1 → 2 → 3 這樣的串列來做圖解的話，步驟會像是這樣：
 
-![206_recursion.png](,/206_recursion.png)
+![206_recursion.png](./206_recursion.png)
 
 因此實作上的思路大概會像這樣：
 
