@@ -24,6 +24,7 @@ A collaborative group with friends to build a daily LeetCode problem-solving hab
 | 0121 | [[E] Best Time to Buy and Sell Stock](./src/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock) | Array | 2025-01-12           |
 | 0021 | [[E] Merge Two Sorted Lists](./src/21.%20Merge%20Two%20Sorted%20Lists) | Linked List | 2025-01-13                              |
 | 0206 | [[E] Reverse Linked List](./src/206.%20Reverse%20Linked%20List)      | Linked List | 2025-01-14                                |
+| 0409 | [[E] Longest Palindrome](./src/409.%20Longest%20Palindrome)          | String      | 2025-01-15                                |
 
 ## References
 
