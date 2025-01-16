@@ -5,7 +5,7 @@ export function binarySearch(nums: number[], target: number): number {
 
   // run a while loop when left position smaller than right
   while (left <= right) {
-    const mid = left + Math.floor((left + right) / 2);
+    const mid = left + Math.floor((right - left) / 2);
 
     if (nums[mid] === target) {
       return mid;
