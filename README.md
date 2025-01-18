@@ -27,6 +27,7 @@ A collaborative group with friends to build a daily LeetCode problem-solving hab
 | 0409 | [[E] Longest Palindrome](./src/409.%20Longest%20Palindrome)          | String         | 2025-01-15                                |
 | 0704 | [[E] Binary Search](./src/704.%20Binary%20Search)                    | Binary Search  | 2025-01-16                                |
 | 0057 | [[M] Insert Interval](./src/57.%20Insert%20Interval)                 | Array          | 2025-01-17                                |
+| 0075 | [[M] Sort Colors](./src/75.%20Sort%20Colors)                         | Array          | 2025-01-18                                |
 
 ## References
 
