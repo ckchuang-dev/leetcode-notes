@@ -28,6 +28,7 @@ A collaborative group with friends to build a daily LeetCode problem-solving hab
 | 0704 | [[E] Binary Search](./src/704.%20Binary%20Search)                    | Binary Search  | 2025-01-16                                |
 | 0057 | [[M] Insert Interval](./src/57.%20Insert%20Interval)                 | Array          | 2025-01-17                                |
 | 0075 | [[M] Sort Colors](./src/75.%20Sort%20Colors)                         | Array          | 2025-01-18                                |
+| 0278 | [[E] First Bad Version](./src/278.%20First%20Bad%20Version)          | Binary Search  | 2025-01-19                                |
 
 ## References
 
