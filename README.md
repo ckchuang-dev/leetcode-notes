@@ -31,7 +31,7 @@ A collaborative group with friends to build a daily LeetCode problem-solving hab
 | 0278 | [[E] First Bad Version](./src/278.%20First%20Bad%20Version)          | Binary Search  | 2025-01-19                                |
 | 0056 | [[M] Merge Intervals](./src/56.%20Merge%20Intervals)                 | Array          | 2025-01-20                                |
 | 0003 | [[M] Longest Substring Without Repeating Characters](./src/3.%20Longest%20Substring%20Without%20Repeating%20Characters) | String | 2025-01-21 |
-| 0001 | [[E] Two Sum](./src/1.%20Two%20Sum)                                  | Array          | 2025-01-21                                |
+| 0001 | [[E] Two Sum](./src/1.%20Two%20Sum)                                  | Array          | 2025-01-22                                |
 
 ## References
 
