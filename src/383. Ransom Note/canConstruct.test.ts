@@ -10,7 +10,10 @@ describe('Ransom Note', () => {
     ['a', '', false],
     ['abc', 'a', false],
     ['abc', 'abc', true]
-  ])('should return %i for input %s', (ransomNote, magazine, expected) => {
-    expect(canConstruct(ransomNote, magazine)).toBe(expected);
-  });
+  ])(
+    '%s for ransomNote and %s for magazine, result should be %s',
+    (ransomNote, magazine, expected) => {
+      expect(canConstruct(ransomNote, magazine)).toBe(expected);
+    }
+  );
 });

@@ -115,7 +115,7 @@ describe('Insert Interval', () => {
     [[[1, 3], [6, 9]], [3, 6], [[1, 9]]],
     [[[1, 3], [6, 9]], [12, 15], [[1, 3], [6, 9], [12, 15]]],
   ])(
-    'should return %s for insertInterval(%s, %s)',
+    'insertInterval(%s, %s) should return %s',
     (intervals, newInterval, expected) => {
       const result = insertInterval(intervals, newInterval);
 

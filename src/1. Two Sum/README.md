@@ -103,9 +103,9 @@ describe('Two Sum', () => {
     [[3, 3], 6, [0, 1]],
     [[1, 5, 3, 6, 8], 11, [1, 3]],
     [[-3, 4, 3, 90], 0, [0, 2]],
-    [[1, 5, 3, 6, 8], 99, []]
+    [[1, 5, 3, 6, 8], 99, []],
   ])(
-    'should return %j for input %j with target %i',
+    'input %j with target %i should return %j',
     (nums: number[], target: number, expected: number[]) => {
       expect(twoSum(nums, target)).toEqual(expected);
     }

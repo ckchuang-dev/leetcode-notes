@@ -9,7 +9,7 @@ describe('lengthOfLongestSubstring', () => {
     ['aA1! aA', 5],
     ['!@#$%^&*()', 10],
     ['AaBbCc', 6]
-  ])('should return %i for input %s', (input, expected) => {
+  ])("input '%s' should return %i", (input, expected) => {
     expect(lengthOfLongestSubstring(input)).toBe(expected);
   });
 });

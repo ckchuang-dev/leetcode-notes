@@ -160,7 +160,7 @@ describe('Merge Interval', () => {
       Array.from({ length: 10000 }, (_, i) => [i, i + 1]),
       Array.from({ length: 1 }, () => [0, 10000])
     ]
-  ])('should return %s for mergeInterval(%s, %s)', (intervals, expected) => {
+  ])('intervals %s as input should return %s', (intervals, expected) => {
     const result = mergeInterval(intervals);
 
     expect(result).toEqual(expected);
