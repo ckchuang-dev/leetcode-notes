@@ -34,6 +34,8 @@ A collaborative group with friends to build a daily LeetCode problem-solving hab
 | 0001 | [[E] Two Sum](./src/1.%20Two%20Sum)                                  | Array          | 2025-01-22                                |
 | 0383 | [[E] Ransom Note](./src/383.%20Ransom%20Note)                        | Hash Table     | 2025-01-23                                |
 | 0169 | [[E] Majority Element](./src/169.%20Majority%20Element)              | Array          | 2025-01-24                                |
+| 0046 | [[M] Permutations](./src/46.%20Permutations)                         | Recursion      | 2025-01-25                                |
+| 0015 | [[E] 3Sum](./src/15.%20Three%20Sum)                                  | Array          | 2025-xx-xx                                |
 
 ## References
 
