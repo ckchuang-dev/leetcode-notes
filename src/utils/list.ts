@@ -35,4 +35,29 @@ const linkedListToArray = (head: ListNode | null): number[] => {
   return result;
 };
 
-export { duplicateLinkedList, createLinkedList, linkedListToArray };
+const createLinkedListWithCycle = (values: number[], pos: number) => {
+  const head = createLinkedList(values);
+  if (pos === -1 || !head) return head;
+
+  let tail = head;
+  let cycleNode = null;
+  let index = 0;
+
+  while (tail.next !== null) {
+    if (index === pos) {
+      cycleNode = tail;
+    }
+    tail = tail.next;
+    index++;
+  }
+  if (cycleNode) tail.next = cycleNode;
+
+  return head;
+};
+
+export {
+  duplicateLinkedList,
+  createLinkedList,
+  linkedListToArray,
+  createLinkedListWithCycle
+};
