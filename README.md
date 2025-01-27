@@ -43,3 +43,7 @@ A collaborative group with friends to build a daily LeetCode problem-solving hab
 
 - [Grind 75](https://www.techinterviewhandbook.org/grind75/)
 - [Neetcode roadmap](https://neetcode.io/roadmap)
+
+## LeetCode Statistics
+
+<img src="https://leetcard.jacoblin.cool/ckchuang" alt="My LeetCode statistics" />
