@@ -37,7 +37,7 @@ A collaborative group with friends to build a daily LeetCode problem-solving hab
 | 0046 | [[M] Permutations](./src/46.%20Permutations)                         | Recursion      | 2025-01-25                                |
 | 0011 | [[M] Container With Most Water](./src/11.%20Container%20With%20Most%20Water) | Array  | 2025-01-26                                |
 | 0141 | [[M] Linked List Cycle](./src/141.%20Linked%20List%20Cycle)          | Linked List    | 2025-01-27                                |
-| 0015 | [[E] 3Sum](./src/15.%20Three%20Sum)                                  | Array          | 2025-xx-xx                                |
+| 0015 | [[E] 3Sum](./src/15.%20Three%20Sum)                                  | Array          | 2025-01-28                                |
 
 ## References
 
