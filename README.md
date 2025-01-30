@@ -39,6 +39,7 @@ A collaborative group with friends to build a daily LeetCode problem-solving hab
 | 0141 | [[M] Linked List Cycle](./src/141.%20Linked%20List%20Cycle)          | Linked List    | 2025-01-27                                |
 | 0015 | [[M] 3Sum](./src/15.%20Three%20Sum)                                  | Array          | 2025-01-28                                |
 | 0876 | [[E] Middle of the Linked List](./src/876.%20Middle%20of%20the%20Linked%20List) | Linked List | 2025-01-29                        |
+| 0207 | [[M] Course Schedule](./src/207.%20Course%20Schedule)                | Graph          | 2025-01-30                                |
 
 ## References
 
