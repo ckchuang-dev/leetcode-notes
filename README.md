@@ -41,6 +41,7 @@ A collaborative group with friends to build a daily LeetCode problem-solving hab
 | 0876 | [[E] Middle of the Linked List](./src/876.%20Middle%20of%20the%20Linked%20List) | Linked List | 2025-01-29                        |
 | 0207 | [[M] Course Schedule](./src/207.%20Course%20Schedule)                | Graph          | 2025-01-30                                |
 | 0210 | [[M] Course Schedule II](./src/210.%20Course%20Schedule%20II)        | Graph          | 2025-01-30                                |
+| 0542 | [[M] 01 Matrix](./src/542.%2001%20Matrix)                            | Graph          | 2025-01-31                                |
 
 ## References
 
