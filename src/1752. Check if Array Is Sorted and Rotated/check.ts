@@ -34,14 +34,17 @@ export function check1(nums: number[]): boolean {
 }
 
 export function check2(nums: number[]): boolean {
+  // 計算當前 nums 相鄰數字間遞減次數
   let count = 0;
   const n = nums.length;
 
   for (let i = 0; i < n; i++) {
+    // 當前數比下一個數字大則計數
     if (nums[i] > nums[(i + 1) % n]) {
       count++;
     }
 
+    // 只要遞減超過 1 次則代表不可能透過旋轉排序完成
     if (count > 1) {
       return false;
     }
