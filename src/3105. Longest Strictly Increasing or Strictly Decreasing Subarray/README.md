@@ -5,6 +5,7 @@
 - [LeetCode 連結](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray)
 - **主題**：Array
 - **難度**：Easy
+- **Daily**：2025-02-03
 
 ## 題目描述
 

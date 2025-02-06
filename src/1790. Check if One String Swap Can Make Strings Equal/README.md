@@ -5,6 +5,7 @@
 - [LeetCode 連結](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal)
 - **主題**：String、Hash Table
 - **難度**：Easy
+- **Daily**：2025-02-05
 
 ## 題目描述
 

@@ -5,6 +5,7 @@
 - [LeetCode 連結](https://leetcode.com/problems/maximum-ascending-subarray-sum)
 - **主題**：Array
 - **難度**：Easy
+- **Daily**：2025-02-04
 
 ## 題目描述
 
