@@ -109,7 +109,7 @@ function queryResults(limit: number, queries: number[][]): number[] {
 }
 ```
 
-通過了 `547/551` 個測資，其他的還是 TLE 了，換個方式用空間換時間，在宣告一個 colorCount 的 map 來計算每次的顏色數量：
+通過了 `547/551` 個測資，其他的還是 TLE 了，換個方式用空間換時間，再宣告一個 colorCount 的 map 來計算每次的顏色數量：
 
 ```ts
 function queryResults(limit: number, queries: number[][]): number[] {
@@ -148,6 +148,16 @@ function queryResults(limit: number, queries: number[][]): number[] {
 
   // return result
   return res;
+}
+```
+
+有趣的是原本只有 beats 38.46%，加上以下這段 early return 後竟然就 beats 100% 了：
+
+```ts
+// If identical, early return
+if (oldColor === newColor) {
+  res.push(colorCount.size);
+  continue;
 }
 ```
 
