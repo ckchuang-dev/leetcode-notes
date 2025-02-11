@@ -85,3 +85,10 @@ function removeOccurrences(s: string, part: string): string {
     return stack.join('');
 }
 ```
+
+## 方法二複雜度
+
+如果 n 代表 `s` 字串長度，m 代表 `part` 的長度：
+
+- time: `O(n * m)`，一次迴圈，每次檢查一次 `m` 長度
+- space: `O(n + m)`，stack 額外使用 `n` 長度，每次檢查 `part` 是否符合時另外使用 `m` 長度
