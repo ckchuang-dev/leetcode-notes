@@ -181,7 +181,7 @@ function minOperations(nums: number[], k: number): number {
   }
 
   // return minimum operation count
-  return heap.size() >= 2 ? -1 : count;
+  return heap.peek()! < k ? -1 : count;
 }
 ```
 
