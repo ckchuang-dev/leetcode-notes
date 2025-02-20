@@ -37,7 +37,7 @@ function findDifferentBinaryStringRecursive(nums: string[]): string {
 };
 
 // Method 2. Convert to number Set
-// time complexity: O(n)
+// time complexity: O(n^2)
 // space complexity: O(n)
 function findDifferentBinaryString(nums: string[]): string {
   const integers = new Set<number>();
