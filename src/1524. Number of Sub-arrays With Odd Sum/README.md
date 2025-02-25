@@ -2,7 +2,7 @@
 
 ## 題目
 
-- LeetCode 連結
+- [LeetCode 連結](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/description)
 - **主題**：Array、Prefix Sum、DP
 - **難度**：Medium (Rating: 1610)
 - **Daily**：2025-02-25
