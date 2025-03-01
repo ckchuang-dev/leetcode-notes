@@ -98,3 +98,9 @@ function applyOperations(nums: number[]): number[] {
 
 - 時間複雜度：一個迴圈所以為 `O(n)`
 - 空間複雜度：另外有用一個 `nonZeroNums` 最長會是 `O(n)`
+
+## Daily 心得
+
+看到討論區有個人留言蠻有趣：「finally inner peace.. this feb was tuff」，在連續的 Medium、Hard 與 Backtracking、Binary Tree、DP 轟炸後，終於又是平易近人的 Easy。
+
+雖然這題是感覺有點小水就是，但參考官方解答還有一些可以優化的地方，但今天連假晚點要出門時間不太夠了，只好先筆記到這樣。
