@@ -82,4 +82,4 @@ function topKFrequent(nums: number[], k: number): number[] {
 
 ## 解題心得
 
-以前的 Medium 真是經典，一題可以有好幾種觀念，而且也不會難道很像在解謎題，看近期面試大廠出現頻率也是滿滿的，果然還是回頭把 NeetCode 150 練熟實在，daily badge 什麼的我還太早。
+以前的 Medium 真是經典，一題可以有好幾種觀念，而且也不會難到像在解謎題，看近期面試大廠出現頻率也是滿滿的，果然還是回頭把 NeetCode 150 練熟實在，daily badge 什麼的我還太早。
