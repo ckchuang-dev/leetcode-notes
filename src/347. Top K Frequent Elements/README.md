@@ -79,3 +79,7 @@ function topKFrequent(nums: number[], k: number): number[] {
 第二種 heap 的做法因為 JS 內建沒有 PQ，還在研究中。
 
 看了下解答還有第三種解法是用 Bucket Sort 可以再把時間複雜度降到 `O(N)`，之後回頭來複習下。
+
+## 解題心得
+
+以前的 Medium 真是經典，一題可以有好幾種觀念，而且也不會難道很像在解謎題，看近期面試大廠出現頻率也是滿滿的，果然還是回頭把 NeetCode 150 練熟實在，daily badge 什麼的我還太早。
