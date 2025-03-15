@@ -8,6 +8,9 @@ importers:
 
   .:
     devDependencies:
+      '@datastructures-js/priority-queue':
+        specifier: ^6.3.2
+        version: 6.3.2
       '@eslint/js':
         specifier: ^9.15.0
         version: 9.17.0
@@ -64,6 +67,12 @@ packages:
 
   '@bcoe/v8-coverage@0.2.3':
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
+
+  '@datastructures-js/heap@4.3.3':
+    resolution: {integrity: sha512-UcUu/DLh/aM4W3C8zZfwxxm6/6FIZUlm3mcAXuNOCa6Aj4iizNvNXQyb8DjZQH2jKSQbMRyNlngP6TPimuGjpQ==}
+
+  '@datastructures-js/priority-queue@6.3.2':
+    resolution: {integrity: sha512-hPmWlbmYRegOkZsWJuOzZw+BYcrOJ9B5xwy8Sz/QtEtLUPHtJbX9OpPpCB+KQPgOVb1QonqFqiddVDud/i5afw==}
 
   '@esbuild/aix-ppc64@0.21.5':
     resolution: {integrity: sha512-1SDgH6ZSPTlggy1yI6+Dbkiz8xzpHJEVAlF/AM1tHPLsf5STom9rwtjE4hKAF20FfXXNTFqEYXyJNWh1GiZedQ==}
@@ -1380,6 +1389,12 @@ snapshots:
       '@babel/helper-validator-identifier': 7.25.9
 
   '@bcoe/v8-coverage@0.2.3': {}
+
+  '@datastructures-js/heap@4.3.3': {}
+
+  '@datastructures-js/priority-queue@6.3.2':
+    dependencies:
+      '@datastructures-js/heap': 4.3.3
 
   '@esbuild/aix-ppc64@0.21.5':
     optional: true

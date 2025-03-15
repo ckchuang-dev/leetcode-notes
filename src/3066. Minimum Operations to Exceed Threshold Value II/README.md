@@ -68,7 +68,46 @@
 
 稍微學了一下基礎 priority queue 與 heap 的概念後，才發現原來像是 Python 的 `heapq`、C++ 的 `priority_queue`、Java、Go 這些語言都有內建 heap 的資料結構，而如果使用 JavaScript/TypeScript 的話，很抱歉，這需要自己實作，甚至有個專門的套件 ([@datastructures-js/heap](https://github.com/datastructures-js/heap)、[@datastructures-js/priority-queue](https://github.com/datastructures-js/priority-queue)) 能直接調用。
 
-如果先實作一個簡單版的 MinHeap class 的話會長這樣：
+> 2025-03-15 補充：後來經過[古古](https://kucw.io/)的友情提醒與研究，發現如果是使用 LeetCode 並搭配 JavaScript/TypeScript 進行 PQ 相關的解題時，預設平台是會自動載入上述兩個套件輔助更方便善用像是 min heap 或 max heap 的資料結構 ([ref](https://support.leetcode.com/hc/en-us/articles/360011833974-What-are-the-environments-for-the-programming-languages))。而 Python 有另一個限制是原生並沒有提供 max heap，查了下資訊看起來會需要調整成負數形式來用 min heap 實作。
+
+![leetcode ts pq auto import](./lc-ts-pq.png)
+
+有鑒於上面的補充，直接來嘗試看看使用套件的版本 (LeetCode 上套件版本在 TypeScript 型別編譯上另有差異，需拿掉泛型)：
+
+```ts
+import { MinPriorityQueue } from '@datastructures-js/priority-queue';
+
+function minOperations(nums: number[], k: number): number {
+  // handle edge case
+  if (nums.length < 2) {
+    return -1;
+  }
+
+  // arrange nums with min heap
+  const pq = new MinPriorityQueue<number>();
+
+  nums.forEach(num => pq.enqueue(num));
+
+  let count = 0;
+
+  // run while loop until array length smaller than h
+  // check whether all new nums larger or equal to k
+  while (pq.size() >= 2 && pq.front()! < k) {
+    const x = pq.dequeue()!;
+    const y = pq.dequeue()!;
+    const newNum = Math.min(x, y) * 2 + Math.max(x, y);
+    pq.enqueue(newNum);
+    count++;
+  }
+
+  // return minimum operation count
+  return count;
+}
+```
+
+### 純手工實作
+
+雖然實際在 LeetCode 上解題可以直接用套件，還是保留下原本的筆記，如果要純手工實作一個簡單版的 MinHeap class 的話會長這樣：
 
 ```ts
 // @/types/Heap.ts
